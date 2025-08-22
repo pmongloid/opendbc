@@ -599,6 +599,12 @@ class CAR(Platforms):
     flags=HyundaiFlags.RADAR_SCC,
   )
 
+  GENESIS_G80_RG3 = HyundaiCanFDPlatformConfig(
+    [HyundaiCarDocs("Genesis G80 RG3", "All", car_parts=CarParts.common([CarHarness.hyundai_a]))],
+    CarSpecs(mass=1825, wheelbase=3.01, steerRatio=13.6),
+    flags=HyundaiFlags.RADAR_SCC,
+  )
+
   # port extensions
   HYUNDAI_BAYON_1ST_GEN_NON_SCC = HyundaiPlatformConfig(
     [HyundaiCarDocs("Hyundai Bayon Non-SCC 2021", "No Smart Cruise Control (Non-SCC)", car_parts=CarParts.common([CarHarness.hyundai_n]))],
