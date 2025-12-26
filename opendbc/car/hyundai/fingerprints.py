@@ -1206,6 +1206,14 @@ FW_VERSIONS = {
       b'\xf1\x00JX1_ SCC FHCUP      1.00 1.01 99110-T6100         ',
     ],
   },
+  CAR.GENESIS_G80_RG3: {
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00RG3 MFC  AT KOR LHD 1.00 1.01 99211-T1100 210430',
+    ],
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00RG3_ SCC FHCUP      1.00 1.01 99110-T1110         ',
+    ],
+  },
   CAR.KIA_CARNIVAL_4TH_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00KA4 MFC  AT EUR LHD 1.00 1.06 99210-R0000 220221',

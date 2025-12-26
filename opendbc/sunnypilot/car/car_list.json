@@ -867,6 +867,16 @@
     ],
     "package": "All"
   },
+  "Genesis G80 RG3": {
+    "platform": "GENESIS_G80_RG3",
+    "make": "Genesis",
+    "brand": "hyundai",
+    "model": "G80",
+    "year": [
+      "2022"
+    ],
+    "package": "All"
+  },
   "GMC Acadia 2018": {
     "platform": "GMC_ACADIA",
     "make": "GMC",

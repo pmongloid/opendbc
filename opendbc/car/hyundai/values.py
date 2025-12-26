@@ -587,6 +587,11 @@ class CAR(Platforms):
     CarSpecs(mass=2258, wheelbase=2.95, steerRatio=14.14),
     flags=HyundaiFlags.RADAR_SCC,
   )
+  GENESIS_G80_RG3 = HyundaiCanFDPlatformConfig(
+    [HyundaiCarDocs("Genesis G80 RG3", "All", car_parts=CarParts.common([CarHarness.hyundai_a]))],
+    CarSpecs(mass=1825, wheelbase=3.01, steerRatio=13.6),
+    flags=HyundaiFlags.RADAR_SCC,
+  )
 
   # port extensions
   HYUNDAI_BAYON_1ST_GEN_NON_SCC = HyundaiPlatformConfig(
